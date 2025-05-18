@@ -1,0 +1,9 @@
+﻿  COM-ссылка "WMPLib.1.0" является сборкой взаимодействия для элемента ActiveX "AxWMPLib.1.0", но была помечена на компоновку компилятором флагом /link. Эта COM-ссылка будет считаться ссылкой и не будет скомпонована.
+  MyForm.cpp
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\MyForm.h(412,22): warning C4101: err: неиспользованная локальная переменная
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\MyForm.h(526,40): warning C4101: err: неиспользованная локальная переменная
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\MyForm.h(565,35): warning C4101: ignored: неиспользованная локальная переменная
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\MyForm.h(577,22): warning C4101: ignored: неиспользованная локальная переменная
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\MyForm.h(652,21): warning C4101: err: неиспользованная локальная переменная
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  MusicalPlayer.vcxproj -> C:\Users\Modder\source\repos\MusicalPlayer\x64\Release\MusicalPlayer.exe

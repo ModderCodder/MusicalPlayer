@@ -1,0 +1,974 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AxInterop.WMPLib.1.0, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Interop.WMPLib.1.0, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AxWMPLib.AxWindowsMediaPlayer: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.AxHost
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String URL 'get set' : 
+    WMPLib.WMPOpenState openState 'get ' : 
+    WMPLib.WMPPlayState playState 'get ' : 
+    WMPLib.IWMPControls Ctlcontrols 'get ' : 
+    WMPLib.IWMPSettings settings 'get ' : 
+    WMPLib.IWMPMedia currentMedia 'get set' : 
+    WMPLib.IWMPMediaCollection mediaCollection 'get ' : 
+    WMPLib.IWMPPlaylistCollection playlistCollection 'get ' : 
+    System.String versionInfo 'get ' : 
+    WMPLib.IWMPNetwork network 'get ' : 
+    WMPLib.IWMPPlaylist currentPlaylist 'get set' : 
+    WMPLib.IWMPCdromCollection cdromCollection 'get ' : 
+    WMPLib.IWMPClosedCaption closedCaption 'get ' : 
+    Boolean isOnline 'get ' : 
+    WMPLib.IWMPError Error 'get ' : 
+    System.String status 'get ' : 
+    WMPLib.IWMPDVD dvd 'get ' : 
+    Boolean Ctlenabled 'get set' : 
+    Boolean fullScreen 'get set' : 
+    Boolean enableContextMenu 'get set' : 
+    System.String uiMode 'get set' : 
+    Boolean stretchToFit 'get set' : 
+    Boolean windowlessVideo 'get set' : 
+    Boolean isRemote 'get ' : 
+    WMPLib.IWMPPlayerApplication playerApplication 'get ' : 
+  Events:
+    AxWMPLib._WMPOCXEvents_OpenStateChangeEventHandler OpenStateChange: 
+    AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler PlayStateChange: 
+    AxWMPLib._WMPOCXEvents_AudioLanguageChangeEventHandler AudioLanguageChange: 
+    System.EventHandler StatusChange: 
+    AxWMPLib._WMPOCXEvents_ScriptCommandEventHandler ScriptCommand: 
+    System.EventHandler NewStream: 
+    AxWMPLib._WMPOCXEvents_DisconnectEventHandler Disconnect: 
+    AxWMPLib._WMPOCXEvents_BufferingEventHandler Buffering: 
+    System.EventHandler ErrorEvent: 
+    AxWMPLib._WMPOCXEvents_WarningEventHandler Warning: 
+    AxWMPLib._WMPOCXEvents_EndOfStreamEventHandler EndOfStream: 
+    AxWMPLib._WMPOCXEvents_PositionChangeEventHandler PositionChange: 
+    AxWMPLib._WMPOCXEvents_MarkerHitEventHandler MarkerHit: 
+    AxWMPLib._WMPOCXEvents_DurationUnitChangeEventHandler DurationUnitChange: 
+    AxWMPLib._WMPOCXEvents_CdromMediaChangeEventHandler CdromMediaChange: 
+    AxWMPLib._WMPOCXEvents_PlaylistChangeEventHandler PlaylistChange: 
+    AxWMPLib._WMPOCXEvents_CurrentPlaylistChangeEventHandler CurrentPlaylistChange: 
+    AxWMPLib._WMPOCXEvents_CurrentPlaylistItemAvailableEventHandler CurrentPlaylistItemAvailable: 
+    AxWMPLib._WMPOCXEvents_MediaChangeEventHandler MediaChange: 
+    AxWMPLib._WMPOCXEvents_CurrentMediaItemAvailableEventHandler CurrentMediaItemAvailable: 
+    AxWMPLib._WMPOCXEvents_CurrentItemChangeEventHandler CurrentItemChange: 
+    System.EventHandler MediaCollectionChange: 
+    AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringAddedEventHandler MediaCollectionAttributeStringAdded: 
+    AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringRemovedEventHandler MediaCollectionAttributeStringRemoved: 
+    AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringChangedEventHandler MediaCollectionAttributeStringChanged: 
+    System.EventHandler PlaylistCollectionChange: 
+    AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistAddedEventHandler PlaylistCollectionPlaylistAdded: 
+    AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistRemovedEventHandler PlaylistCollectionPlaylistRemoved: 
+    AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEventHandler PlaylistCollectionPlaylistSetAsDeleted: 
+    AxWMPLib._WMPOCXEvents_ModeChangeEventHandler ModeChange: 
+    AxWMPLib._WMPOCXEvents_MediaErrorEventHandler MediaError: 
+    AxWMPLib._WMPOCXEvents_OpenPlaylistSwitchEventHandler OpenPlaylistSwitch: 
+    AxWMPLib._WMPOCXEvents_DomainChangeEventHandler DomainChange: 
+    System.EventHandler SwitchedToPlayerApplication: 
+    System.EventHandler SwitchedToControl: 
+    System.EventHandler PlayerDockedStateChange: 
+    System.EventHandler PlayerReconnect: 
+    AxWMPLib._WMPOCXEvents_ClickEventHandler ClickEvent: 
+    AxWMPLib._WMPOCXEvents_DoubleClickEventHandler DoubleClickEvent: 
+    AxWMPLib._WMPOCXEvents_KeyDownEventHandler KeyDownEvent: 
+    AxWMPLib._WMPOCXEvents_KeyPressEventHandler KeyPressEvent: 
+    AxWMPLib._WMPOCXEvents_KeyUpEventHandler KeyUpEvent: 
+    AxWMPLib._WMPOCXEvents_MouseDownEventHandler MouseDownEvent: 
+    AxWMPLib._WMPOCXEvents_MouseMoveEventHandler MouseMoveEvent: 
+    AxWMPLib._WMPOCXEvents_MouseUpEventHandler MouseUpEvent: 
+    AxWMPLib._WMPOCXEvents_DeviceConnectEventHandler DeviceConnect: 
+    AxWMPLib._WMPOCXEvents_DeviceDisconnectEventHandler DeviceDisconnect: 
+    AxWMPLib._WMPOCXEvents_DeviceStatusChangeEventHandler DeviceStatusChange: 
+    AxWMPLib._WMPOCXEvents_DeviceSyncStateChangeEventHandler DeviceSyncStateChange: 
+    AxWMPLib._WMPOCXEvents_DeviceSyncErrorEventHandler DeviceSyncError: 
+    AxWMPLib._WMPOCXEvents_CreatePartnershipCompleteEventHandler CreatePartnershipComplete: 
+    AxWMPLib._WMPOCXEvents_DeviceEstimationEventHandler DeviceEstimation: 
+    AxWMPLib._WMPOCXEvents_CdromRipStateChangeEventHandler CdromRipStateChange: 
+    AxWMPLib._WMPOCXEvents_CdromRipMediaErrorEventHandler CdromRipMediaError: 
+    AxWMPLib._WMPOCXEvents_CdromBurnStateChangeEventHandler CdromBurnStateChange: 
+    AxWMPLib._WMPOCXEvents_CdromBurnMediaErrorEventHandler CdromBurnMediaError: 
+    AxWMPLib._WMPOCXEvents_CdromBurnErrorEventHandler CdromBurnError: 
+    AxWMPLib._WMPOCXEvents_LibraryConnectEventHandler LibraryConnect: 
+    AxWMPLib._WMPOCXEvents_LibraryDisconnectEventHandler LibraryDisconnect: 
+    AxWMPLib._WMPOCXEvents_FolderScanStateChangeEventHandler FolderScanStateChange: 
+    AxWMPLib._WMPOCXEvents_StringCollectionChangeEventHandler StringCollectionChange: 
+    AxWMPLib._WMPOCXEvents_MediaCollectionMediaAddedEventHandler MediaCollectionMediaAdded: 
+    AxWMPLib._WMPOCXEvents_MediaCollectionMediaRemovedEventHandler MediaCollectionMediaRemoved: 
+  Methods:
+    add_CdromBurnMediaError(_WMPOCXEvents_CdromBurnMediaErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CdromBurnMediaError(_WMPOCXEvents_CdromBurnMediaErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CdromBurnError(_WMPOCXEvents_CdromBurnErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CdromBurnError(_WMPOCXEvents_CdromBurnErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_LibraryConnect(_WMPOCXEvents_LibraryConnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LibraryConnect(_WMPOCXEvents_LibraryConnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_LibraryDisconnect(_WMPOCXEvents_LibraryDisconnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_LibraryDisconnect(_WMPOCXEvents_LibraryDisconnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_FolderScanStateChange(_WMPOCXEvents_FolderScanStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_FolderScanStateChange(_WMPOCXEvents_FolderScanStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_StringCollectionChange(_WMPOCXEvents_StringCollectionChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_StringCollectionChange(_WMPOCXEvents_StringCollectionChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaCollectionMediaAdded(_WMPOCXEvents_MediaCollectionMediaAddedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaCollectionMediaAdded(_WMPOCXEvents_MediaCollectionMediaAddedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaCollectionMediaRemoved(_WMPOCXEvents_MediaCollectionMediaRemovedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaCollectionMediaRemoved(_WMPOCXEvents_MediaCollectionMediaRemovedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    close(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    launchURL(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    newPlaylist(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    newMedia(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    openPlayer(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_URL(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_URL(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_openState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_playState(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Ctlcontrols(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_settings(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_currentMedia(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_currentMedia(IWMPMedia): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_mediaCollection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_playlistCollection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_versionInfo(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_network(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_currentPlaylist(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_currentPlaylist(IWMPPlaylist): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_cdromCollection(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_closedCaption(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_isOnline(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Error(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_status(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_dvd(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_Ctlenabled(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_Ctlenabled(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_fullScreen(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_fullScreen(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_enableContextMenu(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_enableContextMenu(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_uiMode(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_uiMode(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_stretchToFit(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_stretchToFit(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_windowlessVideo(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_windowlessVideo(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_isRemote(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_playerApplication(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    add_OpenStateChange(_WMPOCXEvents_OpenStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_OpenStateChange(_WMPOCXEvents_OpenStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlayStateChange(_WMPOCXEvents_PlayStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlayStateChange(_WMPOCXEvents_PlayStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_AudioLanguageChange(_WMPOCXEvents_AudioLanguageChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_AudioLanguageChange(_WMPOCXEvents_AudioLanguageChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_StatusChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_StatusChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ScriptCommand(_WMPOCXEvents_ScriptCommandEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ScriptCommand(_WMPOCXEvents_ScriptCommandEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_NewStream(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_NewStream(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Disconnect(_WMPOCXEvents_DisconnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Disconnect(_WMPOCXEvents_DisconnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Buffering(_WMPOCXEvents_BufferingEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Buffering(_WMPOCXEvents_BufferingEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ErrorEvent(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ErrorEvent(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_Warning(_WMPOCXEvents_WarningEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_Warning(_WMPOCXEvents_WarningEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_EndOfStream(_WMPOCXEvents_EndOfStreamEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_EndOfStream(_WMPOCXEvents_EndOfStreamEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PositionChange(_WMPOCXEvents_PositionChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PositionChange(_WMPOCXEvents_PositionChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MarkerHit(_WMPOCXEvents_MarkerHitEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MarkerHit(_WMPOCXEvents_MarkerHitEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DurationUnitChange(_WMPOCXEvents_DurationUnitChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DurationUnitChange(_WMPOCXEvents_DurationUnitChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CdromMediaChange(_WMPOCXEvents_CdromMediaChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CdromMediaChange(_WMPOCXEvents_CdromMediaChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlaylistChange(_WMPOCXEvents_PlaylistChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlaylistChange(_WMPOCXEvents_PlaylistChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CurrentPlaylistChange(_WMPOCXEvents_CurrentPlaylistChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CurrentPlaylistChange(_WMPOCXEvents_CurrentPlaylistChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CurrentPlaylistItemAvailable(_WMPOCXEvents_CurrentPlaylistItemAvailableEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CurrentPlaylistItemAvailable(_WMPOCXEvents_CurrentPlaylistItemAvailableEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaChange(_WMPOCXEvents_MediaChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaChange(_WMPOCXEvents_MediaChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CurrentMediaItemAvailable(_WMPOCXEvents_CurrentMediaItemAvailableEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CurrentMediaItemAvailable(_WMPOCXEvents_CurrentMediaItemAvailableEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CurrentItemChange(_WMPOCXEvents_CurrentItemChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CurrentItemChange(_WMPOCXEvents_CurrentItemChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaCollectionChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaCollectionChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaCollectionAttributeStringAdded(_WMPOCXEvents_MediaCollectionAttributeStringAddedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaCollectionAttributeStringAdded(_WMPOCXEvents_MediaCollectionAttributeStringAddedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaCollectionAttributeStringRemoved(_WMPOCXEvents_MediaCollectionAttributeStringRemovedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaCollectionAttributeStringRemoved(_WMPOCXEvents_MediaCollectionAttributeStringRemovedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaCollectionAttributeStringChanged(_WMPOCXEvents_MediaCollectionAttributeStringChangedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaCollectionAttributeStringChanged(_WMPOCXEvents_MediaCollectionAttributeStringChangedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlaylistCollectionChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlaylistCollectionChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlaylistCollectionPlaylistAdded(_WMPOCXEvents_PlaylistCollectionPlaylistAddedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlaylistCollectionPlaylistAdded(_WMPOCXEvents_PlaylistCollectionPlaylistAddedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlaylistCollectionPlaylistRemoved(_WMPOCXEvents_PlaylistCollectionPlaylistRemovedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlaylistCollectionPlaylistRemoved(_WMPOCXEvents_PlaylistCollectionPlaylistRemovedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlaylistCollectionPlaylistSetAsDeleted(_WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlaylistCollectionPlaylistSetAsDeleted(_WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ModeChange(_WMPOCXEvents_ModeChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ModeChange(_WMPOCXEvents_ModeChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MediaError(_WMPOCXEvents_MediaErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MediaError(_WMPOCXEvents_MediaErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_OpenPlaylistSwitch(_WMPOCXEvents_OpenPlaylistSwitchEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_OpenPlaylistSwitch(_WMPOCXEvents_OpenPlaylistSwitchEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DomainChange(_WMPOCXEvents_DomainChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DomainChange(_WMPOCXEvents_DomainChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_SwitchedToPlayerApplication(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_SwitchedToPlayerApplication(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_SwitchedToControl(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_SwitchedToControl(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlayerDockedStateChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlayerDockedStateChange(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_PlayerReconnect(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_PlayerReconnect(EventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_ClickEvent(_WMPOCXEvents_ClickEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_ClickEvent(_WMPOCXEvents_ClickEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DoubleClickEvent(_WMPOCXEvents_DoubleClickEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DoubleClickEvent(_WMPOCXEvents_DoubleClickEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_KeyDownEvent(_WMPOCXEvents_KeyDownEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_KeyDownEvent(_WMPOCXEvents_KeyDownEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_KeyPressEvent(_WMPOCXEvents_KeyPressEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_KeyPressEvent(_WMPOCXEvents_KeyPressEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_KeyUpEvent(_WMPOCXEvents_KeyUpEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_KeyUpEvent(_WMPOCXEvents_KeyUpEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MouseDownEvent(_WMPOCXEvents_MouseDownEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MouseDownEvent(_WMPOCXEvents_MouseDownEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MouseMoveEvent(_WMPOCXEvents_MouseMoveEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MouseMoveEvent(_WMPOCXEvents_MouseMoveEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_MouseUpEvent(_WMPOCXEvents_MouseUpEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_MouseUpEvent(_WMPOCXEvents_MouseUpEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceConnect(_WMPOCXEvents_DeviceConnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceConnect(_WMPOCXEvents_DeviceConnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceDisconnect(_WMPOCXEvents_DeviceDisconnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceDisconnect(_WMPOCXEvents_DeviceDisconnectEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceStatusChange(_WMPOCXEvents_DeviceStatusChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceStatusChange(_WMPOCXEvents_DeviceStatusChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceSyncStateChange(_WMPOCXEvents_DeviceSyncStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceSyncStateChange(_WMPOCXEvents_DeviceSyncStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceSyncError(_WMPOCXEvents_DeviceSyncErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceSyncError(_WMPOCXEvents_DeviceSyncErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CreatePartnershipComplete(_WMPOCXEvents_CreatePartnershipCompleteEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CreatePartnershipComplete(_WMPOCXEvents_CreatePartnershipCompleteEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_DeviceEstimation(_WMPOCXEvents_DeviceEstimationEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_DeviceEstimation(_WMPOCXEvents_DeviceEstimationEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CdromRipStateChange(_WMPOCXEvents_CdromRipStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CdromRipStateChange(_WMPOCXEvents_CdromRipStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CdromRipMediaError(_WMPOCXEvents_CdromRipMediaErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CdromRipMediaError(_WMPOCXEvents_CdromRipMediaErrorEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    add_CdromBurnStateChange(_WMPOCXEvents_CdromBurnStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_CdromBurnStateChange(_WMPOCXEvents_CdromBurnStateChangeEventHandler): PrivateScope, Public, HideBySig, SpecialName
+Class AxWMPLib._WMPOCXEvents_OpenStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_OpenStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_OpenStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_OpenStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 newState : Public
+Class AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_PlayStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_PlayStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_PlayStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 newState : Public
+Class AxWMPLib._WMPOCXEvents_AudioLanguageChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_AudioLanguageChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_AudioLanguageChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_AudioLanguageChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 langID : Public
+Class AxWMPLib._WMPOCXEvents_ScriptCommandEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_ScriptCommandEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_ScriptCommandEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_ScriptCommandEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String scType : Public
+    System.String param : Public
+Class AxWMPLib._WMPOCXEvents_DisconnectEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DisconnectEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DisconnectEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DisconnectEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 result : Public
+Class AxWMPLib._WMPOCXEvents_BufferingEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_BufferingEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_BufferingEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_BufferingEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean start : Public
+Class AxWMPLib._WMPOCXEvents_WarningEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_WarningEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_WarningEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_WarningEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Int32, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 warningType : Public
+    Int32 param : Public
+    System.String description : Public
+Class AxWMPLib._WMPOCXEvents_EndOfStreamEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_EndOfStreamEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_EndOfStreamEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_EndOfStreamEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 result : Public
+Class AxWMPLib._WMPOCXEvents_PositionChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_PositionChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_PositionChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_PositionChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Double, Double): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Double oldPosition : Public
+    Double newPosition : Public
+Class AxWMPLib._WMPOCXEvents_MarkerHitEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MarkerHitEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MarkerHitEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MarkerHitEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 markerNum : Public
+Class AxWMPLib._WMPOCXEvents_DurationUnitChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DurationUnitChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DurationUnitChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DurationUnitChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 newDurationUnit : Public
+Class AxWMPLib._WMPOCXEvents_CdromMediaChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CdromMediaChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CdromMediaChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CdromMediaChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 cdromNum : Public
+Class AxWMPLib._WMPOCXEvents_PlaylistChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_PlaylistChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_PlaylistChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_PlaylistChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object, WMPLib.WMPPlaylistChangeEventType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object playlist : Public
+    WMPLib.WMPPlaylistChangeEventType change : Public
+Class AxWMPLib._WMPOCXEvents_CurrentPlaylistChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CurrentPlaylistChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CurrentPlaylistChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CurrentPlaylistChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.WMPPlaylistChangeEventType): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.WMPPlaylistChangeEventType change : Public
+Class AxWMPLib._WMPOCXEvents_CurrentPlaylistItemAvailableEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CurrentPlaylistItemAvailableEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CurrentPlaylistItemAvailableEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CurrentPlaylistItemAvailableEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrItemName : Public
+Class AxWMPLib._WMPOCXEvents_MediaChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object item : Public
+Class AxWMPLib._WMPOCXEvents_CurrentMediaItemAvailableEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CurrentMediaItemAvailableEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CurrentMediaItemAvailableEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CurrentMediaItemAvailableEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrItemName : Public
+Class AxWMPLib._WMPOCXEvents_CurrentItemChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CurrentItemChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CurrentItemChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CurrentItemChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object pdispMedia : Public
+Class AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringAddedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaCollectionAttributeStringAddedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaCollectionAttributeStringAddedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringAddedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrAttribName : Public
+    System.String bstrAttribVal : Public
+Class AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringRemovedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaCollectionAttributeStringRemovedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaCollectionAttributeStringRemovedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringRemovedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrAttribName : Public
+    System.String bstrAttribVal : Public
+Class AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringChangedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaCollectionAttributeStringChangedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaCollectionAttributeStringChangedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaCollectionAttributeStringChangedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrAttribName : Public
+    System.String bstrOldAttribVal : Public
+    System.String bstrNewAttribVal : Public
+Class AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistAddedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_PlaylistCollectionPlaylistAddedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_PlaylistCollectionPlaylistAddedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistAddedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrPlaylistName : Public
+Class AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistRemovedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_PlaylistCollectionPlaylistRemovedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_PlaylistCollectionPlaylistRemovedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistRemovedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrPlaylistName : Public
+Class AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_PlaylistCollectionPlaylistSetAsDeletedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String bstrPlaylistName : Public
+    Boolean varfIsDeleted : Public
+Class AxWMPLib._WMPOCXEvents_ModeChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_ModeChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_ModeChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_ModeChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String, Boolean): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String modeName : Public
+    Boolean newValue : Public
+Class AxWMPLib._WMPOCXEvents_MediaErrorEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaErrorEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaErrorEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaErrorEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object pMediaObject : Public
+Class AxWMPLib._WMPOCXEvents_OpenPlaylistSwitchEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_OpenPlaylistSwitchEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_OpenPlaylistSwitchEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_OpenPlaylistSwitchEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object pItem : Public
+Class AxWMPLib._WMPOCXEvents_DomainChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DomainChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DomainChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DomainChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String strDomain : Public
+Class AxWMPLib._WMPOCXEvents_ClickEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_ClickEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_ClickEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_ClickEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nButton : Public
+    Int16 nShiftState : Public
+    Int32 fX : Public
+    Int32 fY : Public
+Class AxWMPLib._WMPOCXEvents_DoubleClickEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DoubleClickEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DoubleClickEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DoubleClickEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nButton : Public
+    Int16 nShiftState : Public
+    Int32 fX : Public
+    Int32 fY : Public
+Class AxWMPLib._WMPOCXEvents_KeyDownEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_KeyDownEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_KeyDownEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_KeyDownEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nKeyCode : Public
+    Int16 nShiftState : Public
+Class AxWMPLib._WMPOCXEvents_KeyPressEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_KeyPressEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_KeyPressEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_KeyPressEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nKeyAscii : Public
+Class AxWMPLib._WMPOCXEvents_KeyUpEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_KeyUpEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_KeyUpEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_KeyUpEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nKeyCode : Public
+    Int16 nShiftState : Public
+Class AxWMPLib._WMPOCXEvents_MouseDownEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MouseDownEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MouseDownEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MouseDownEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nButton : Public
+    Int16 nShiftState : Public
+    Int32 fX : Public
+    Int32 fY : Public
+Class AxWMPLib._WMPOCXEvents_MouseMoveEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MouseMoveEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MouseMoveEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MouseMoveEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nButton : Public
+    Int16 nShiftState : Public
+    Int32 fX : Public
+    Int32 fY : Public
+Class AxWMPLib._WMPOCXEvents_MouseUpEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MouseUpEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MouseUpEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MouseUpEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int16, Int16, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int16 nButton : Public
+    Int16 nShiftState : Public
+    Int32 fX : Public
+    Int32 fY : Public
+Class AxWMPLib._WMPOCXEvents_DeviceConnectEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DeviceConnectEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DeviceConnectEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DeviceConnectEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+Class AxWMPLib._WMPOCXEvents_DeviceDisconnectEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DeviceDisconnectEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DeviceDisconnectEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DeviceDisconnectEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+Class AxWMPLib._WMPOCXEvents_DeviceStatusChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DeviceStatusChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DeviceStatusChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DeviceStatusChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice, WMPLib.WMPDeviceStatus): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+    WMPLib.WMPDeviceStatus newStatus : Public
+Class AxWMPLib._WMPOCXEvents_DeviceSyncStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DeviceSyncStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DeviceSyncStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DeviceSyncStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice, WMPLib.WMPSyncState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+    WMPLib.WMPSyncState newState : Public
+Class AxWMPLib._WMPOCXEvents_DeviceSyncErrorEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DeviceSyncErrorEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DeviceSyncErrorEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DeviceSyncErrorEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+    System.Object pMedia : Public
+Class AxWMPLib._WMPOCXEvents_CreatePartnershipCompleteEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CreatePartnershipCompleteEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CreatePartnershipCompleteEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CreatePartnershipCompleteEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+    Int32 hrResult : Public
+Class AxWMPLib._WMPOCXEvents_DeviceEstimationEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_DeviceEstimationEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_DeviceEstimationEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_DeviceEstimationEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPSyncDevice, Int32, Int64, Int64): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPSyncDevice pDevice : Public
+    Int32 hrResult : Public
+    Int64 qwEstimatedUsedSpace : Public
+    Int64 qwEstimatedSpace : Public
+Class AxWMPLib._WMPOCXEvents_CdromRipStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CdromRipStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CdromRipStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CdromRipStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPCdromRip, WMPLib.WMPRipState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPCdromRip pCdromRip : Public
+    WMPLib.WMPRipState wmprs : Public
+Class AxWMPLib._WMPOCXEvents_CdromRipMediaErrorEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CdromRipMediaErrorEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CdromRipMediaErrorEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CdromRipMediaErrorEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPCdromRip, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPCdromRip pCdromRip : Public
+    System.Object pMedia : Public
+Class AxWMPLib._WMPOCXEvents_CdromBurnStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CdromBurnStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CdromBurnStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CdromBurnStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPCdromBurn, WMPLib.WMPBurnState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPCdromBurn pCdromBurn : Public
+    WMPLib.WMPBurnState wmpbs : Public
+Class AxWMPLib._WMPOCXEvents_CdromBurnMediaErrorEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CdromBurnMediaErrorEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CdromBurnMediaErrorEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CdromBurnMediaErrorEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPCdromBurn, System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPCdromBurn pCdromBurn : Public
+    System.Object pMedia : Public
+Class AxWMPLib._WMPOCXEvents_CdromBurnErrorEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_CdromBurnErrorEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_CdromBurnErrorEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_CdromBurnErrorEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPCdromBurn, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPCdromBurn pCdromBurn : Public
+    Int32 hrError : Public
+Class AxWMPLib._WMPOCXEvents_LibraryConnectEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_LibraryConnectEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_LibraryConnectEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_LibraryConnectEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPLibrary): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPLibrary pLibrary : Public
+Class AxWMPLib._WMPOCXEvents_LibraryDisconnectEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_LibraryDisconnectEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_LibraryDisconnectEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_LibraryDisconnectEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.IWMPLibrary): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.IWMPLibrary pLibrary : Public
+Class AxWMPLib._WMPOCXEvents_FolderScanStateChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_FolderScanStateChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_FolderScanStateChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_FolderScanStateChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(WMPLib.WMPFolderScanState): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    WMPLib.WMPFolderScanState wmpfss : Public
+Class AxWMPLib._WMPOCXEvents_StringCollectionChangeEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_StringCollectionChangeEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_StringCollectionChangeEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_StringCollectionChangeEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object, WMPLib.WMPStringCollectionChangeEventType, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object pdispStringCollection : Public
+    WMPLib.WMPStringCollectionChangeEventType change : Public
+    Int32 lCollectionIndex : Public
+Class AxWMPLib._WMPOCXEvents_MediaCollectionMediaAddedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaCollectionMediaAddedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaCollectionMediaAddedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaCollectionMediaAddedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object pdispMedia : Public
+Class AxWMPLib._WMPOCXEvents_MediaCollectionMediaRemovedEventHandler: AutoLayout, AnsiClass, Class, Public, Sealed
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Invoke(Object, _WMPOCXEvents_MediaCollectionMediaRemovedEvent): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    BeginInvoke(Object, _WMPOCXEvents_MediaCollectionMediaRemovedEvent, AsyncCallback, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxWMPLib._WMPOCXEvents_MediaCollectionMediaRemovedEvent: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(System.Object): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Object pdispMedia : Public
+Class AxWMPLib.AxWindowsMediaPlayerEventMulticaster: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(AxWMPLib.AxWindowsMediaPlayer): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    WMPLib._WMPOCXEvents
+  Methods:
+    OpenStateChange(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlayStateChange(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    AudioLanguageChange(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    StatusChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ScriptCommand(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    NewStream(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Disconnect(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Buffering(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Error(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Warning(Int32, Int32, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EndOfStream(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PositionChange(Double, Double): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MarkerHit(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DurationUnitChange(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CdromMediaChange(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlaylistChange(Object, WMPPlaylistChangeEventType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CurrentPlaylistChange(WMPPlaylistChangeEventType): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CurrentPlaylistItemAvailable(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaChange(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CurrentMediaItemAvailable(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CurrentItemChange(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaCollectionChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaCollectionAttributeStringAdded(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaCollectionAttributeStringRemoved(String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaCollectionAttributeStringChanged(String, String, String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlaylistCollectionChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlaylistCollectionPlaylistAdded(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlaylistCollectionPlaylistRemoved(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlaylistCollectionPlaylistSetAsDeleted(String, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ModeChange(String, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaError(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OpenPlaylistSwitch(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DomainChange(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SwitchedToPlayerApplication(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SwitchedToControl(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlayerDockedStateChange(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PlayerReconnect(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Click(Int16, Int16, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DoubleClick(Int16, Int16, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    KeyDown(Int16, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    KeyPress(Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    KeyUp(Int16, Int16): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseDown(Int16, Int16, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseMove(Int16, Int16, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MouseUp(Int16, Int16, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeviceConnect(IWMPSyncDevice): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeviceDisconnect(IWMPSyncDevice): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeviceStatusChange(IWMPSyncDevice, WMPDeviceStatus): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeviceSyncStateChange(IWMPSyncDevice, WMPSyncState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeviceSyncError(IWMPSyncDevice, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreatePartnershipComplete(IWMPSyncDevice, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DeviceEstimation(IWMPSyncDevice, Int32, Int64, Int64): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CdromRipStateChange(IWMPCdromRip, WMPRipState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CdromRipMediaError(IWMPCdromRip, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CdromBurnStateChange(IWMPCdromBurn, WMPBurnState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CdromBurnMediaError(IWMPCdromBurn, Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CdromBurnError(IWMPCdromBurn, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LibraryConnect(IWMPLibrary): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    LibraryDisconnect(IWMPLibrary): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    FolderScanStateChange(WMPFolderScanState): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    StringCollectionChange(Object, WMPStringCollectionChangeEventType, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaCollectionMediaAdded(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    MediaCollectionMediaRemoved(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask

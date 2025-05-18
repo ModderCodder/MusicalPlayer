@@ -1,0 +1,4 @@
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\x64\Release\MusicalPlayer.vcxproj.AssemblyReference.cache
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\x64\Release\MusicalPlayer.vcxproj.ResolveComReference.cache
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\x64\Release\MusicalPlayer.MyForm.resources
+C:\Users\Modder\source\repos\MusicalPlayer\MusicalPlayer\x64\Release\MusicalPlayer.vcxproj.GenerateResource.cache

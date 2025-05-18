@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{197BAF7D-D6B7-4023-8264-8A37EC44D6F8}|MusicalPlayer\\MusicalPlayer.vcxproj|C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{197BAF7D-D6B7-4023-8264-8A37EC44D6F8}|MusicalPlayer\\MusicalPlayer.vcxproj|solutionrelative:MusicalPlayer\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197BAF7D-D6B7-4023-8264-8A37EC44D6F8}|MusicalPlayer\\MusicalPlayer.vcxproj|C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form",
+      "RelativeMoniker": "D:0:0:{197BAF7D-D6B7-4023-8264-8A37EC44D6F8}|MusicalPlayer\\MusicalPlayer.vcxproj|solutionrelative:MusicalPlayer\\MyForm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{197BAF7D-D6B7-4023-8264-8A37EC44D6F8}|MusicalPlayer\\MusicalPlayer.vcxproj|C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{197BAF7D-D6B7-4023-8264-8A37EC44D6F8}|MusicalPlayer\\MusicalPlayer.vcxproj|solutionrelative:MusicalPlayer\\MyForm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyForm.h",
+              "DocumentMoniker": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.h",
+              "RelativeDocumentMoniker": "MusicalPlayer\\MyForm.h",
+              "ToolTip": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.h",
+              "RelativeToolTip": "MusicalPlayer\\MyForm.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-12T16:18:40.859Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.h",
+              "RelativeDocumentMoniker": "MusicalPlayer\\MyForm.h",
+              "ToolTip": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "MusicalPlayer\\MyForm.h [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-12T16:18:17.224Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyForm.cpp",
+              "DocumentMoniker": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.cpp",
+              "RelativeDocumentMoniker": "MusicalPlayer\\MyForm.cpp",
+              "ToolTip": "C:\\Users\\Modder\\source\\repos\\MusicalPlayer\\MusicalPlayer\\MyForm.cpp",
+              "RelativeToolTip": "MusicalPlayer\\MyForm.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-12T16:18:14.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

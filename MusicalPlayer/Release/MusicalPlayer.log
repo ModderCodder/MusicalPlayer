@@ -1,0 +1,4 @@
+﻿  COM-ссылка "WMPLib.1.0" является сборкой взаимодействия для элемента ActiveX "AxWMPLib.1.0", но была помечена на компоновку компилятором флагом /link. Эта COM-ссылка будет считаться ссылкой и не будет скомпонована.
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MSVCRT.lib(exe_winmain.obj) : error LNK2019: ссылка на неразрешенный внешний символ _WinMain@16 в функции "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ).
+C:\Users\Modder\source\repos\MusicalPlayer\Release\MusicalPlayer.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
